@@ -116,3 +116,90 @@ header::before {
   width: 100%;
   position: relative;
 }
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+.items-img {
+  width: 20%;
+  display: flex;
+  padding: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #cccccc;
+}
+
+.items-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.items-text {
+  margin-left: 10px;
+}
+.items-text > h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 5px;
+}
+.items-text > span {
+  font-size: 0.8rem;
+  color: #aba9a9;
+}
+.platform-sect {
+  padding: 50px 0px;
+}
+.platformsect-info {
+  display: flex;
+}
+.platform-text {
+  margin-left: 50px;
+  padding-top: 55px;
+}
+.platform-text h2 {
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+  color: #959393;
+}
+.platform-text b {
+  color: #5c5353;
+}
+.platform-text p {
+  font-size: 15px;
+  max-width: 400px;
+  color: #9c9c9c;
+  line-height: 20px;
+}
+.platfomr-btn {
+  margin-top: 20px;
+}
+.btn-findout {
+  margin-right: 20px;
+  font-weight: 800;
+  color: #fff;
+  background-color: #37a000;
+  border-color: #37a000;
+  border: 1px solid transparent;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btn-team {
+  padding: 8px 12px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-color: #37a000;
+  background-color: #fff;
+  color: #28a745;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn-team:hover {
+  background-color: #28a745;
+  color: #fff;
+}
