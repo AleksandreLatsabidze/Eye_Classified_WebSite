@@ -18,7 +18,8 @@ a {
   align-items: center;
   width: 100%;
   position: fixed;
-  top: 0; /*საცდელად*/
+  top: 0;
+  z-index: 1;
 }
 .formValidation {
   display: flex;
@@ -316,7 +317,7 @@ a {
   color: #fff;
 }
 .welcome-sect {
-  background-color: #f0f1f2;
+  background-color: #e4e4e4ad;
   padding: 60px 0px;
   text-align: center;
 }
@@ -385,4 +386,139 @@ a {
 }
 .categories-lasttext a:hover {
   border-bottom: 1px solid #37a000;
+}
+.sectionAds {
+  padding: 100px 5px;
+  background-color: #f8f8f8;
+}
+.sectionAds-title {
+  display: block;
+  text-align: center;
+}
+.sectionAds-title h1 {
+  color: #5d5a5a;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+.sectionAds-title h3 {
+  font-size: 16px;
+  color: gray;
+  font-family: emoji;
+}
+.item {
+  background-color: #fff;
+}
+.item > img {
+  width: 264px;
+  height: 187px;
+  display: block;
+  cursor: pointer;
+}
+.item-user > img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  bottom: 20px;
+  left: 5px;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+.sectionAds-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.item-user {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+  height: 40px;
+}
+.itemIcon {
+  display: flex;
+  align-items: center;
+  background: #0e900e;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 1px 3px;
+}
+.price-name-date > h4 {
+  font-size: 18px;
+  color: #343434;
+  font-family: -webkit-body;
+  margin-bottom: 3px;
+}
+.price-name-date h3 {
+  font-size: 18px;
+  color: #555454;
+  font-family: none;
+  margin-bottom: 8px;
+}
+.techDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.techDiv > ion-icon {
+  color: #29ccff;
+}
+.tech {
+  margin-left: 11px;
+  color: #29ccff;
+  cursor: pointer;
+}
+.date {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #6a6868;
+  font-size: 17px;
+}
+.date > ion-icon {
+  margin-right: 10px;
+}
+.item-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 7px;
+  border-top: 1px solid #e0e0e0cf;
+}
+.locationIcon {
+  color: green;
+  font-size: 18px;
+}
+.localWorld {
+  font-size: 16px;
+  color: #808080d9;
+  margin-left: 8px;
+}
+.heart-icon {
+  color: red;
+  font-size: 20px;
+}
+.price-name-date {
+  padding: 0px 10px;
+}
+.local-name {
+  display: inline-flex;
+}
+.verifClass {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.featIcon {
+  display: flex;
+  align-items: center;
+  background: #28a8bb;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+  padding: 1px 3px;
+}
+.heart-icon :hover {
+  color: #ff6969;
 }
