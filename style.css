@@ -522,3 +522,136 @@ a {
 .heart-icon :hover {
   color: #ff6969;
 }
+.bg-img {
+  background: url(img/new_bg.webp);
+  background-attachment: fixed;
+  width: 100%;
+}
+.green-bg {
+  background-color: rgba(40, 167, 69, 0.9);
+}
+.into-items {
+  padding: 80px 0px;
+}
+.moreInfo {
+  text-align: center;
+}
+.moreInfo > h1 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.moreInfo h4 {
+  font-size: 20px;
+  color: #fff;
+  font-family: cursive;
+  margin-bottom: 65px;
+}
+.moreinfo-item {
+  width: 100%;
+}
+.moreinfo-item {
+  width: 33.3333%;
+}
+.moreinfo-item h1 {
+  color: #fff;
+  font-size: 27px;
+  margin-bottom: -7px;
+  padding: 0px 58px;
+}
+.into-icon-txt {
+  display: flex;
+  align-items: center;
+}
+.into-icon {
+  font-size: 50px;
+  color: #fff;
+  margin-right: 10px;
+}
+.into-icon-txt h4 {
+  color: #fff;
+  font-size: 15px;
+}
+.moreinfo-items {
+  display: flex;
+}
+.into-padding {
+  padding: 70px 0px;
+}
+.latest-product {
+  background-color: #f8f8f8;
+}
+.latestprod-title {
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+.latestprod-title h1 {
+  font-size: 35px;
+  color: #6a6a6a;
+  margin-bottom: 11px;
+  font-family: none;
+}
+.latestprod-title h4 {
+  font-size: 17px;
+  color: gray;
+  font-family: emoji;
+}
+.lastItems > img {
+  width: 264px;
+  height: 187px;
+}
+.latestprod-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lastItems {
+  width: 22.6%;
+  margin-bottom: 30px;
+}
+.lastIntoPadding {
+  padding: 15px 10px;
+  background-color: #fff;
+}
+.lastItemsTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.lastIcon {
+  font-size: 16px;
+  color: #00c4f8;
+  margin-right: 7px;
+}
+.lastLocation {
+  color: #808080d9;
+}
+
+.items-Title {
+  color: gray;
+  font-family: system-ui;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.lastPriceHeart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lastPriceHeart h2 {
+  font-size: 15px;
+  color: #23d323;
+}
+.lastHeartIcon {
+  color: red;
+}
+.lastHeartIcon > ion-icon {
+  font-size: 20px;
+}
+.lastItems:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.14);
+  transition: 1.5ms ease;
+}
