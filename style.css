@@ -655,3 +655,108 @@ a {
   box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.14);
   transition: 1.5ms ease;
 }
+.feedBack {
+  background-image: url(img/map.webp);
+  padding: 20px;
+  background-size: 100%;
+  background-color: rgb(20 20 20);
+  /* height: 615px; */
+}
+.clientFeedback {
+  text-align: center;
+}
+.clientFeedback h1 {
+  color: #4f4f4f;
+  font-family: initial;
+  margin-bottom: 10px;
+}
+.clientFeedback h3 {
+  font-size: 14px;
+  color: #8e8989;
+  margin-bottom: 60px;
+}
+.clientsTxt {
+  width: 340px;
+  height: 186px;
+  background-color: #fff;
+  line-height: 20px;
+  padding: 42px 38px 35px 51px;
+  font-size: 13px;
+  margin-bottom: 35px;
+  /* position: absolute; */
+  border: 1px solid #ece4e4;
+}
+.clientsTxt h4 {
+  color: #80808096;
+}
+.clientsIcon {
+  background-color: #23b013;
+  width: 50px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  position: relative;
+  bottom: 96px;
+  right: 71px;
+  color: #fff;
+}
+
+.triangle {
+  width: 10px;
+  height: 10px;
+  border: 10px solid #23b013;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  position: relative;
+  bottom: 163px;
+  right: 70px;
+}
+.clientsWord {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.clientProfile {
+  display: flex;
+}
+.members {
+  display: flex;
+  align-items: center;
+  padding-right: 245px;
+}
+.members > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-right: 3px;
+}
+.membersName {
+  width: 108px;
+}
+.membersName h1 {
+  font-size: 20px;
+  color: #3b3b3b;
+  font-weight: 400;
+}
+.membersName span {
+  font-size: 13px;
+  margin-left: 2px;
+  color: #20c720;
+}
+.feedBackClickBtn {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.leftClick,
+.rightClick {
+  width: 12px;
+  height: 12px;
+  background-color: #008000c2;
+  border-radius: 50%;
+  margin-right: 10px;
+}
