@@ -528,7 +528,7 @@ a {
   width: 100%;
 }
 .green-bg {
-  background-color: rgba(40, 167, 69, 0.9);
+  background-color: rgb(40 167 69 / 72%);
 }
 .into-items {
   padding: 80px 0px;
@@ -759,4 +759,194 @@ a {
   background-color: #008000c2;
   border-radius: 50%;
   margin-right: 10px;
+}
+.moreApp_bg {
+  background-image: url(img/app_bg.webp);
+}
+.appInfo {
+  padding: 38px 160px;
+}
+.appInfo h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+  color: #fff;
+}
+.appInfo p {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  margin: 25px 0px;
+  color: #fff;
+  line-height: 25px;
+}
+.app-btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 121px;
+  gap: 25px;
+}
+.app-btn button {
+  width: 220px;
+  height: 43px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  font-size: 17px;
+  padding: 2px 10px;
+}
+.app-btn button ion-icon {
+  color: #23d323;
+}
+.app-items {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-img img {
+  width: 360px;
+  height: 450px;
+}
+.mobile-img {
+  position: relative;
+  bottom: 70px;
+}
+.leftIcons {
+  display: flex;
+  align-items: center;
+  width: 318px;
+  padding-bottom: 35px;
+}
+.leftIcons > span {
+  padding: 11px 14px;
+  background: red;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 25px;
+  margin-right: 19px;
+}
+.iconsTxt h1 {
+  font-size: 17px;
+  font-weight: unset;
+  color: #464040;
+}
+.iconsTxt span {
+  font-weight: 200;
+  color: #000000;
+}
+.leftIcon,
+.rightIcon {
+  padding: 90px 0px;
+}
+.leftIcons:last-child {
+  padding-bottom: 0px;
+}
+.blueHeart {
+  background-color: #38e0ff !important;
+}
+.yellowUSD {
+  background-color: #e4e43c !important;
+}
+.rightIcons {
+  display: flex;
+  align-items: center;
+  width: 318px;
+  padding-bottom: 35px;
+}
+.rightIcons > span {
+  padding: 11px 14px;
+  background: red;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 25px;
+}
+.RGiconsTxt {
+  text-align: right;
+  margin-right: 19px;
+}
+.RGiconsTxt h1 {
+  font-size: 17px;
+  font-weight: unset;
+  color: #464040;
+}
+.RGiconsTxt span {
+  font-weight: 200;
+  color: #000000;
+}
+.rightIcons:last-child {
+  padding-bottom: 0px;
+}
+.blueMob {
+  background-color: #38e0ff !important;
+}
+.greenGllr {
+  background-color: #3de43d !important;
+}
+.lastClr {
+  background-color: #701591c2 !important;
+}
+.last-bg {
+  background-image: url(img/city-bg.webp);
+}
+
+.lastSectPadd {
+  display: flex;
+  padding: 84px 0px;
+  width: 100%;
+  align-items: center;
+}
+.txt-btn,
+.offers {
+  width: 50%;
+}
+.txt-btn h1 {
+  font-size: 38px;
+  font-family: math;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.txt-btn p {
+  color: #fff;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.txt-btn button {
+  width: 190px;
+  height: 42px;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  background-color: #ffb800;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.txt-btn button:hover {
+  background-color: #e1a710;
+}
+.square {
+  width: 165px;
+  height: 96px;
+  background-color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px 0px;
+}
+.offers {
+  display: flex;
+  gap: 30px;
+  padding-left: 30px;
+}
+.square h1 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #575656;
+  font-weight: 500;
+}
+.square span {
+  font-size: 15px;
+  color: gray;
+  font-weight: bold;
 }
