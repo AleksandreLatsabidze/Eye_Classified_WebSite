@@ -950,3 +950,127 @@ a {
   color: gray;
   font-weight: bold;
 }
+.footerFirst {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  border-bottom: 1px solid #80808038;
+}
+.footerIconTxt {
+  display: flex;
+  align-items: center;
+  width: 247px;
+}
+.footerIcon {
+  font-size: 28px;
+  margin-right: 15px;
+  color: #403737;
+}
+
+.footerTxt h1 {
+  font-size: 18px;
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.footerTxt span {
+  font-size: 13px;
+  color: gray;
+}
+.footerSecond {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+.footerTitle h1,
+.categoryTitle h1,
+.businesTitle h1,
+.businesTitleTwo h1,
+.followTitle h1,
+.subscribeTitle h1 {
+  font-size: 20px;
+  color: #646262;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.localTxt {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 25px;
+  width: 230px;
+}
+.localIcon {
+  margin-right: 20px;
+  font-size: 20px;
+}
+#localIcon {
+  color: #6c6a6a;
+}
+.adres {
+  font-size: 14px;
+  color: #565050;
+}
+.categoryNav ul li,
+.businesNav ul li {
+  list-style: none;
+  margin-bottom: 11px;
+}
+.categoryNav ul li a,
+.businesNav ul li a {
+  font-size: 14px;
+  color: #565050;
+}
+
+.businesTitleTwo h1 {
+  margin-top: 25px;
+}
+.onlyIcon {
+  margin-left: 25px;
+  color: gray;
+  font-size: 20px;
+  letter-spacing: 12px;
+  padding-bottom: 25px;
+}
+#lastInput {
+  width: 250px;
+  height: 36px;
+  font-size: 14px;
+  padding: 0px 10px;
+  outline: none;
+  position: absolute;
+  border: 1px solid #d6d6d6;
+}
+.footerForm {
+  padding-bottom: 30px;
+}
+.lastTxt h3 {
+  font-size: 15px;
+  color: #646262;
+  font-weight: 500;
+  width: 295px;
+}
+.footerCategory,
+.footerBusines {
+  width: 185px;
+}
+.formIcon {
+  font-size: 18px;
+  background-color: #2bed2b;
+  padding: 7.5px;
+  position: relative;
+  left: 249px;
+  top: 0px;
+  cursor: pointer;
+}
+.sentDiv {
+  display: flex;
+  align-items: center;
+}
+
+.formIcon ion-icon {
+  width: 23px;
+  height: 17px;
+  color: #fff;
+}
