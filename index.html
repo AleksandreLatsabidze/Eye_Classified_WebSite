@@ -22,8 +22,8 @@
           <div class="formValidation">
             <div class="localFormOne">
               <span class="icon"><ion-icon name="location"></ion-icon></span>
-              <input type="text" placeholder="Location" />
-              <div class="localFormList">
+              <input id="toggleButton" type="text" placeholder="Location" />
+              <div id="emptyDiv" class="localFormList">
                 <div class="formInput">
                   <input
                     type="text"
@@ -102,8 +102,12 @@
               <span class="iconThree"
                 ><ion-icon name="reorder-three"></ion-icon
               ></span>
-              <input type="text" placeholder="Select Catogery" />
-              <div class="searchNav">
+              <input
+                id="searchtoggleButton"
+                type="text"
+                placeholder="Select Catogery"
+              />
+              <div id="searchemptyDiv" class="searchNav">
                 <div class="searchInfo">
                   <ul>
                     <li>
@@ -218,6 +222,9 @@
         <div class="FixBtn">
           <button class="LSBtn">Login or Signup</button>
           <button class="postBtn">Post Free Ad</button>
+        </div>
+        <div class="intoBtn">
+          <span><ion-icon name="apps-outline"></ion-icon></span>
         </div>
       </header>
       <div class="slider-div">

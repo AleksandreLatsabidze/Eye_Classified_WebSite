@@ -1,15 +1,29 @@
-let clickSearch = document.querySelector(".localFormOne");
-let showNav = document.querySelector(".localFormList");
-clickSearch.addEventListener("click", () => {
-  showNav.style.display = "block";
-  //   showNav.classList.add("active");
-  //   showNav.classList.remove("active");
+document.addEventListener("DOMContentLoaded", function () {
+  var button = document.getElementById("toggleButton");
+  var myDiv = document.getElementById("emptyDiv");
+
+  button.addEventListener("click", function () {
+    myDiv.style.display = "block";
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!myDiv.contains(event.target) && event.target !== button) {
+      myDiv.style.display = "none";
+    }
+  });
 });
 
-let clickForm = document.querySelector(".localForm");
-let showList = document.querySelector(".searchNav");
-clickForm.addEventListener("click", () => {
-  showList.style.display = "block";
-  //   showNav.classList.add("active");
-  //   showNav.classList.remove("active");
+document.addEventListener("DOMContentLoaded", function () {
+  var button = document.getElementById("searchtoggleButton");
+  var myDiv = document.getElementById("searchemptyDiv");
+
+  button.addEventListener("click", function () {
+    myDiv.style.display = "block";
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!myDiv.contains(event.target) && event.target !== button) {
+      myDiv.style.display = "none";
+    }
+  });
 });

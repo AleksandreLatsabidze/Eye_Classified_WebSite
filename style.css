@@ -80,8 +80,8 @@ a {
 }
 .iconLast {
   position: absolute;
-  top: 16px;
-  right: 511px;
+  top: 1px;
+  right: 0;
   color: #fff;
   font-size: 20px;
   padding-top: 5px;
@@ -1084,7 +1084,14 @@ a {
   color: gray;
   border: 1px solid rgb(167 167 167 / 41%);
   border-top: 0;
+}
+
+#emptyDiv {
   display: none;
+}
+
+.lastLocalForm {
+  position: relative;
 }
 #formList {
   background-color: rgb(247 244 244);
@@ -1155,4 +1162,16 @@ a {
 }
 .searchInfo ul li:hover {
   background-color: #51ff51;
+}
+.intoBtn span {
+  background-color: green;
+  padding: 4px 6px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.intoBtn {
+  display: flex;
+  align-items: center;
 }

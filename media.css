@@ -1,2 +1,13 @@
+@media only screen and (max-width: 1450px) {
+  .lastLocalForm > input {
+    width: 230px;
+  }
+}
 @media only screen and (max-width: 1200px) {
+  .FixBtn {
+    display: none;
+  }
+  .intoBtn span {
+    display: block;
+  }
 }
