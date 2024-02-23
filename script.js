@@ -27,3 +27,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+/*******************************************************************************/
+let hideBtnNav = document.querySelector(".hideBtnNav");
+let leftNav = document.querySelector(".HLeftNav");
+let hideMainDiv = document.querySelector(".hideX");
+hideBtnNav.addEventListener("click", function () {
+  leftNav.classList.add("leftnavActive");
+});
+
+hideMainDiv.addEventListener("click", function () {
+  leftNav.classList.remove("leftnavActive");
+});
+
+// ერთ ბათონზე გამოტანა გაქრობა *********************************************
+// hideBtnNav.addEventListener("click", function () {
+//   hiddenDiv.classList.toggle("hidden");
+//   if (hiddenDiv.classList.contains("hidden")) {
+//     leftNav.classList.add("leftnavActive");
+//   } else {
+//     leftNav.classList.remove("leftnavActive");
+//   }
+// });

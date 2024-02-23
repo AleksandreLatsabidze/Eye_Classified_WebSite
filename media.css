@@ -1,13 +1,97 @@
+@media only screen and (max-width: 1500px) {
+  .lastLocalForm > input {
+    width: 350px;
+  }
+}
 @media only screen and (max-width: 1450px) {
   .lastLocalForm > input {
     width: 230px;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .FixBtn {
-    display: none;
-  }
+@media only screen and (max-width: 1250px) {
   .intoBtn span {
     display: block;
+  }
+
+  .HLeftNav {
+    display: block;
+    position: fixed;
+    width: 280px;
+    height: 100%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 8px 0px 40px black;
+    top: 0;
+    right: -305px;
+    transition: all 0.4s;
+    overflow-x: auto;
+    z-index: 9999999;
+  }
+  .formValidation {
+    display: block;
+    height: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .localFormOne {
+    width: 100%;
+  }
+  .localFormOne input {
+    width: 100%;
+    border-right: 1px solid rgb(167 167 167 / 41%);
+  }
+  .lastLocalForm > input {
+    width: 100%;
+  }
+  .localForm {
+    position: relative;
+    border-right: 1px solid rgb(167 167 167 / 41%);
+  }
+  .iconThree {
+    top: 6px;
+    right: 1px;
+  }
+  .localFormOne {
+    position: relative;
+  }
+  .icon {
+    top: 8px;
+  }
+  .localForm input {
+    width: 100%;
+  }
+  .localForm {
+    margin: 15px 0px;
+  }
+  .abc {
+    flex-wrap: wrap-reverse;
+  }
+  .FixBtn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .X {
+    display: block;
+  }
+  .localFormList {
+    width: 100%;
+  }
+  .ulNone {
+    flex-wrap: wrap;
+  }
+  .formInput {
+    position: relative;
+  }
+  .formInput span {
+    position: absolute;
+    right: 2px;
+    top: 7px;
+  }
+  .formValidation {
+    margin-right: 0px;
+  }
+  .fixForm {
+    width: 100%;
   }
 }
