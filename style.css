@@ -19,7 +19,7 @@ a {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 999;
 }
 .formValidation {
   display: flex;
@@ -146,9 +146,10 @@ a {
 }
 .header-slide {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .header-text {
@@ -190,7 +191,8 @@ a {
   cursor: pointer;
 }
 .header-imgs img {
-  max-width: 85%;
+  text-align: right;
+  max-width: 100%;
   padding-left: 75px;
 }
 .container {
@@ -203,11 +205,9 @@ a {
   padding: 5px;
   width: 29px;
   height: 40px;
-
   position: absolute;
-  right: 60px;
+  right: 60px !important;
   top: 10px;
-
   color: white;
   background-color: #37a000;
   text-align: center;
@@ -221,7 +221,7 @@ a {
   cursor: pointer;
   color: white;
   position: absolute;
-  left: 60px;
+  left: 60px !important;
   top: 10px;
 
   background-color: #37a000;
@@ -233,17 +233,16 @@ a {
   position: relative;
   padding: 0px 10px;
 }
-.items {
+.HSecondSwiper {
   display: flex;
-  justify-content: space-between;
   width: 100%;
+  padding: 10px;
+  padding-left: 10px;
   border-bottom: 1px solid #cccccc;
 }
 .items-img {
   width: 20%;
   display: flex;
-  padding: 10px;
-  padding-left: 10px;
   border-left: 1px solid #cccccc;
 }
 
@@ -1170,8 +1169,8 @@ a {
 }
 .intoBtn span {
   background-color: #32bc32;
-  padding: 2px 20px;
-  font-size: 20px;
+  padding: 0px 7px;
+  font-size: 29px;
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
@@ -1181,6 +1180,12 @@ a {
   display: flex;
   align-items: center;
 }
+
+.intoBtn .hydrated {
+  position: relative;
+  top: 3px;
+}
+
 .HLeftNav {
   display: flex;
   justify-content: space-between;
@@ -1213,4 +1218,18 @@ a {
 .xRel {
   position: relative;
   top: 1px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.slide-right:after {
+  display: none;
+}
+.slide-left:after {
+  display: none;
+}
+.slide-right,
+.slide-left {
+  color: #fff !important;
 }

@@ -48,3 +48,45 @@ hideMainDiv.addEventListener("click", function () {
 //     leftNav.classList.remove("leftnavActive");
 //   }
 // });
+
+// Initialize Swiper *************************************************
+
+let swiper = new Swiper(".mySwiper", {
+  direction: "horizontal",
+  loop: true,
+  // effect: "fade",
+  speed: 1200,
+  autoplay: false,
+  delay: 3000,
+  simulateTouch: false,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+let swipers = new Swiper(".mySwipers", {
+  slidesPerView: 5,
+  freeMode: true,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+    // when window width is >= 640px
+    700: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+    },
+    1250: {
+      slidesPerView: 5,
+      spaceBetween: 0,
+    },
+  },
+});

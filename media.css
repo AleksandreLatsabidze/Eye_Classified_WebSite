@@ -7,6 +7,9 @@
   .lastLocalForm > input {
     width: 230px;
   }
+  .header-slide {
+    max-width: 1002px;
+  }
 }
 @media only screen and (max-width: 1250px) {
   .intoBtn span {
@@ -93,5 +96,56 @@
   }
   .fixForm {
     width: 100%;
+  }
+  .header-imgs {
+    display: none;
+  }
+  .header-text {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .slide-right {
+    right: 20px !important;
+  }
+  .slide-left {
+    left: 20px !important;
+  }
+  .header-slide {
+    max-width: 100%;
+    width: 100%;
+    padding: 0px 65px;
+  }
+  .header-text h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  .header {
+    padding: 80px 0px;
+    padding-bottom: 60px;
+  }
+  .header-text h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header-btns {
+    margin-top: 20px;
+  }
+  .header-text h3 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .header-text h1 {
+    font-size: 6vw;
+  }
+  .header-text h3 {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .header-btns button {
+    font-size: 3vw;
   }
 }
