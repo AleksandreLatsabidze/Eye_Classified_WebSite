@@ -271,11 +271,11 @@ a {
 }
 .platformsect-info {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
 }
-.platform-text {
-  margin-left: 50px;
-  padding-top: 55px;
-}
+
 .platform-text h2 {
   font-size: 2.6rem;
   margin-bottom: 20px;
@@ -286,9 +286,13 @@ a {
 }
 .platform-text p {
   font-size: 15px;
-  max-width: 400px;
+  /* max-width: 400px; */
   color: #9c9c9c;
   line-height: 20px;
+}
+.platform-text {
+  text-align: center;
+  padding-left: 90px;
 }
 .platfomr-btn {
   margin-top: 20px;

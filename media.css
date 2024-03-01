@@ -135,7 +135,24 @@
     max-width: 80%;
     margin: 0 auto;
   }
+  .platformsect-info {
+    flex-wrap: wrap;
+  }
+  .platform-img {
+    width: 100%;
+    text-align: center;
+  }
+  .platform-text {
+    padding: 0px 100px;
+  }
 }
+@media only screen and (max-width: 940px) {
+  .platformsect-info {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .header-text h1 {
     font-size: 6vw;
@@ -143,9 +160,30 @@
   .header-text h3 {
     font-size: 13px;
   }
-}
-@media only screen and (max-width: 700px) {
   .header-btns button {
     font-size: 3vw;
+  }
+  .platform-img,
+  .platform-text {
+    width: 100%;
+  }
+  .platform-text p {
+    width: auto;
+  }
+  .platform-img img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .platform-text {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .platform-text h2 {
+    font-size: 2rem;
+  }
+  .platform-text p {
+    font-size: 13px;
   }
 }
