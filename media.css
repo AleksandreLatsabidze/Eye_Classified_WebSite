@@ -145,6 +145,15 @@
   .platform-text {
     padding: 0px 100px;
   }
+  .welcomesect-items {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+  }
+  .category {
+    width: 242px;
+  }
 }
 @media only screen and (max-width: 940px) {
   .platformsect-info {
@@ -178,12 +187,24 @@
   .platform-text {
     padding: 0px;
   }
+  .category {
+    width: 200px;
+  }
+  .welcomesect-items {
+    grid-row-gap: 20px;
+  }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   .platform-text h2 {
     font-size: 2rem;
   }
   .platform-text p {
     font-size: 13px;
+  }
+  .categories-lasttext {
+    font-size: 13px;
+  }
+  .category {
+    width: 250px;
   }
 }
