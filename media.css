@@ -154,6 +154,24 @@
   .category {
     width: 242px;
   }
+  .sectionAds-item {
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-column-gap: 110px;
+  }
+  .item {
+    width: 27%;
+    margin-bottom: 25px;
+  }
+  .sectionAds-item {
+    margin-top: 20px;
+  }
+  .price-name-date h3 {
+    font-size: 17px;
+  }
+  .sectionAds {
+    padding: 40px 5px;
+  }
 }
 @media only screen and (max-width: 940px) {
   .platformsect-info {
@@ -161,7 +179,6 @@
     text-align: center;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .header-text h1 {
     font-size: 6vw;

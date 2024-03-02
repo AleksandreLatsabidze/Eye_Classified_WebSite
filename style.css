@@ -433,6 +433,7 @@ a {
   height: 187px;
   display: block;
   cursor: pointer;
+  object-fit: cover;
 }
 .item-user > img {
   width: 50px;
