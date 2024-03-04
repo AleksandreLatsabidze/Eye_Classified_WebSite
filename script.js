@@ -90,3 +90,33 @@ let swipers = new Swiper(".mySwipers", {
     },
   },
 });
+
+let swipers2 = new Swiper(".mySwipers2", {
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+    clickable: true,
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    // 320: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 0,
+    // },
+    // when window width is >= 480px
+    800: {
+      slidesPerView: 1,
+      spaceBetween: 35,
+    },
+    // when window width is >= 640px
+    900: {
+      slidesPerView: 2,
+      spaceBetween: 35,
+    },
+    1250: {
+      slidesPerView: 3,
+      spaceBetween: 35,
+    },
+  },
+});

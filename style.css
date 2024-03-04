@@ -696,19 +696,21 @@ a {
   color: #8e8989;
   margin-bottom: 60px;
 }
-.clientsTxt {
-  width: 340px;
-  height: 186px;
+
+.clientTxtDiv {
+  width: 100%;
   background-color: #fff;
   line-height: 20px;
   padding: 42px 38px 35px 51px;
   font-size: 13px;
   margin-bottom: 35px;
-  /* position: absolute; */
+  position: relative;
   border: 1px solid #ece4e4;
 }
 .clientsTxt h4 {
   color: #80808096;
+  font-size: 16px;
+  max-width: 300px;
 }
 .clientsIcon {
   background-color: #23b013;
@@ -718,9 +720,9 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 23px;
-  position: relative;
-  bottom: 96px;
-  right: 71px;
+  position: absolute;
+  top: 45px;
+  left: -18px;
   color: #fff;
 }
 
@@ -730,14 +732,14 @@ a {
   border: 10px solid #23b013;
   border-top-color: transparent;
   border-left-color: transparent;
-  position: relative;
-  bottom: 163px;
-  right: 70px;
+  position: absolute;
+  left: -18px;
+  top: 23px;
 }
 .clientsWord {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  padding-bottom: 40px;
 }
 
 .clientProfile {
@@ -768,19 +770,7 @@ a {
   margin-left: 2px;
   color: #20c720;
 }
-.feedBackClickBtn {
-  display: flex;
-  justify-content: center;
-  padding: 40px 0px;
-}
-.leftClick,
-.rightClick {
-  width: 12px;
-  height: 12px;
-  background-color: #008000c2;
-  border-radius: 50%;
-  margin-right: 10px;
-}
+
 .moreApp_bg {
   background-image: url(img/app_bg.webp);
 }
@@ -1250,4 +1240,15 @@ a {
 .slide-right,
 .slide-left {
   color: #fff !important;
+}
+.lastSwiper {
+  color: green;
+}
+
+.clientInfo .swiper-pagination-bullet-active {
+  background-color: green !important;
+}
+.clientsWord {
+  padding-left: 20px;
+  padding-right: 20px;
 }
