@@ -231,8 +231,65 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .mobile-img {
+    bottom: 0;
+  }
+  .appInfo p {
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .leftIcon,
+  .rightIcon {
+    padding: 0px;
+  }
+  .rightIcons {
+    padding-bottom: 0px;
+  }
+  .leftIcon {
+    display: flex;
+    padding-top: 15px;
+  }
+  .rightIcon {
+    display: flex;
+    padding-bottom: 15px;
+  }
+  .leftIcons {
+    padding-bottom: 0px;
+  }
+  .app-items {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .app-btn {
+    flex-wrap: wrap;
+  }
+  .app-btn {
+    padding-bottom: 30px;
+  }
+  .footerFirst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px 20px;
+  }
+  .footerIconTxt {
+    width: inherit;
+  }
+  .footerSecond {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
 }
 
+@media only screen and (max-width: 1000px) {
+  .leftIcons,
+  .rightIcons {
+    width: 33.333%;
+  }
+}
 @media only screen and (max-width: 940px) {
   .platformsect-info {
     justify-content: center;
@@ -241,13 +298,95 @@
   .latestprod-items {
     grid-template-columns: 1fr 1fr;
   }
+  .appInfo p {
+    display: none;
+  }
+  .appInfo h1 {
+    padding-bottom: 15px;
+  }
+  .lastSectPadd {
+    display: block;
+  }
+  .txt-btn,
+  .offers {
+    width: 100%;
+    text-align: center;
+  }
+  .txt-btn h1 {
+    font-size: 36px;
+  }
+  .txt-btn p {
+    line-height: 21px;
+    margin-bottom: 0px;
+  }
+  .txt-btn button {
+    margin: 15px;
+  }
+  .offers {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+  }
+  .lastSectPadd {
+    padding: 50px 0px;
+  }
 }
 @media only screen and (max-width: 900px) {
   .members {
     justify-content: center;
     padding-right: 0px;
   }
+  .appInfo h1 {
+    font-size: 30px;
+  }
+  .app-btn button {
+    width: 100%;
+  }
+  .leftIcons,
+  .rightIcons {
+    display: block;
+    text-align: center;
+  }
+  .iconsTxt,
+  .RGiconsTxt {
+    margin-top: 15px;
+  }
+  .rightIcons {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .RGiconsTxt {
+    margin-right: 0px;
+    text-align: center;
+  }
+  .leftIcons > span {
+    margin-right: 0px;
+  }
 }
+@media only screen and (max-width: 800px) {
+  .feedBack {
+    padding: 18px;
+  }
+  .clientsTxt {
+    margin-left: 10px;
+  }
+  .leftIcons,
+  .rightIcon {
+    display: flex;
+  }
+  .leftIcons {
+    margin-bottom: 5px;
+    width: inherit;
+    text-align: left;
+  }
+  .leftIcons > span {
+    margin-right: 15px;
+  }
+  .rightIcons {
+    flex-direction: inherit;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .header-text h1 {
     font-size: 6vw;
@@ -267,6 +406,37 @@
   }
   .platform-img img {
     width: 100%;
+  }
+  .appInfo {
+    padding: 19px 120px;
+  }
+  .rightIcon,
+  .leftIcon {
+    display: block;
+  }
+  .rightIcons {
+    width: inherit;
+  }
+  .RGiconsTxt {
+    text-align: right;
+    margin-right: 15px;
+  }
+  .offers {
+    display: block;
+    padding-left: 0px;
+  }
+  .square {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .lastSectPadd {
+    padding: 15px 0px;
+  }
+  .footerTxt h1 {
+    font-size: 17px;
+  }
+  .footerTxt h1 {
+    margin-bottom: 0px;
   }
 }
 @media only screen and (max-width: 630px) {
@@ -301,6 +471,40 @@
   .latestprod-title h4 {
     font-size: 16px;
   }
+  .appInfo {
+    padding: 19px 50px;
+  }
+  .mobile-img img {
+    width: 330px;
+    height: 400px;
+  }
+  .footerFirst {
+    grid-template-columns: 1fr;
+  }
+  .footerIconTxt {
+    width: 100%;
+  }
+  .footerSecond {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+  .footerTitle h1,
+  .categoryTitle h1,
+  .businesTitle h1,
+  .businesTitleTwo h1,
+  .followTitle h1,
+  .subscribeTitle h1 {
+    padding-bottom: 10px;
+  }
+  .onlyIcon {
+    margin-left: 0px;
+    padding-bottom: 15px;
+  }
+  .footerForm {
+    padding-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 430px) {
   .platform-text h2 {
@@ -320,5 +524,8 @@
   }
   .moreinfo-item h1 {
     font-size: 24px;
+  }
+  .appInfo h1 {
+    font-size: 26px;
   }
 }

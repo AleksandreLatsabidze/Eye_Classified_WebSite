@@ -815,6 +815,7 @@ a {
 .app-items {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .mobile-img img {
   width: 360px;
